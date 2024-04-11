@@ -4,9 +4,7 @@
   | default @import url()
   |============================
 */
-
-@import url('./2-snackbar.css');
-@import url('./1-timer.css');
+@import url('./reset.css');
 
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
@@ -22,4 +20,17 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+}
+
+.timer {
+  display: flex;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+}
+
+.form {
+  width: 360px;
 }
